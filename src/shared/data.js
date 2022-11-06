@@ -1,5 +1,140 @@
 export const realestate=[
     {
+        "pic_name": "pexels-max-vakhtbovych-7031413.jpg",
+        "price": 1000,
+        "location": "Kolkata",
+        "from_date": "21/11/2022",
+        "property": "Villa",
+        "beds": 7,
+        "bathroom": 5
+    },
+    {
+        "pic_name": "pexels-max-vakhtbovych-7031414.jpg",
+        "price": 2000,
+        "location": "Bangalore",
+        "from_date": "06/12/2022",
+        "property": "Villa",
+        "beds": 8,
+        "bathroom": 7
+    },
+    {
+        "pic_name": "pexels-max-vakhtbovych-7174107.jpg",
+        "price": 10000,
+        "location": "Mumbai",
+        "from_date": "05/01/2023",
+        "property": "Villa",
+        "beds": 9,
+        "bathroom": 10
+    },
+    {
+        "pic_name": "pexels-paul-faraday-36355.jpg",
+        "price": 100,
+        "location": "Hyderabad",
+        "from_date": "04/02/2023",
+        "property": "Villa",
+        "beds": 10,
+        "bathroom": 5
+    },
+    {
+        "pic_name": "pexels-pixabay-261327.jpg",
+        "price": 200,
+        "location": "Kolkata",
+        "from_date": "05/05/2023",
+        "property": "Villa",
+        "beds": 12,
+        "bathroom": 7
+    },
+    {
+        "pic_name": "pexels-pixabay-261395.jpg",
+        "price": 300,
+        "location": "Bangalore",
+        "from_date": "21/11/2022",
+        "property": "Villa",
+        "beds": 7,
+        "bathroom": 10
+    },
+    {
+        "pic_name": "pexels-pixabay-271815.jpg",
+        "price": 1000,
+        "location": "Mumbai",
+        "from_date": "06/12/2022",
+        "property": "Villa",
+        "beds": 8,
+        "bathroom": 5
+    },
+    {
+        "pic_name": "pexels-pixabay-53610.jpg",
+        "price": 2000,
+        "location": "Hyderabad",
+        "from_date": "05/01/2023",
+        "property": "Villa",
+        "beds": 9,
+        "bathroom": 7
+    },
+    {
+        "pic_name": "pexels-rachel-claire-4577696.jpg",
+        "price": 10000,
+        "location": "Kolkata",
+        "from_date": "04/02/2023",
+        "property": "Villa",
+        "beds": 10,
+        "bathroom": 10
+    },
+    {
+        "pic_name": "pexels-rachel-claire-4825691.jpg",
+        "price": 100,
+        "location": "Bangalore",
+        "from_date": "05/05/2023",
+        "property": "Villa",
+        "beds": 12,
+        "bathroom": 5
+    },
+    {
+        "pic_name": "pexels-rachel-claire-5490346.jpg",
+        "price": 200,
+        "location": "Mumbai",
+        "from_date": "21/11/2022",
+        "property": "Villa",
+        "beds": 7,
+        "bathroom": 7
+    },
+    {
+        "pic_name": "pexels-rajesh-chetty-2956511.jpg",
+        "price": 300,
+        "location": "Hyderabad",
+        "from_date": "06/12/2022",
+        "property": "Villa",
+        "beds": 8,
+        "bathroom": 10
+    },
+    {
+        "pic_name": "pexels-roman-odintsov-8747706.jpg",
+        "price": 1000,
+        "location": "Kolkata",
+        "from_date": "05/01/2023",
+        "property": "Villa",
+        "beds": 9,
+        "bathroom": 5
+    },
+    {
+        "pic_name": "pexels-skylar-kang-6430734.jpg",
+        "price": 2000,
+        "location": "Bangalore",
+        "from_date": "04/02/2023",
+        "property": "Villa",
+        "beds": 10,
+        "bathroom": 7
+    },
+    {
+        "pic_name": "pexels-vlada-karpovich-7902904.jpg",
+        "price": 10000,
+        "location": "Mumbai",
+        "from_date": "05/05/2023",
+        "property": "Villa",
+        "beds": 12,
+        "bathroom": 10
+    },
+    {
         "pic_name": "pexels-andreea-ch-1040893.jpg",
         "price": 100,
         "location": "Bangalore",
@@ -34,7 +169,7 @@ export const realestate=[
         "property": "2-BHK",
         "beds": 2,
         "bathroom": 2
-    },/*
+    },
     {
         "pic_name": "pexels-eneida-nieves-981993.jpg",
         "price": 2000,
@@ -1366,140 +1501,5 @@ export const realestate=[
         "property": "Villa",
         "beds": 12,
         "bathroom": 10
-    },
-    {
-        "pic_name": "pexels-max-vakhtbovych-7031413.jpg",
-        "price": 1000,
-        "location": "Kolkata",
-        "from_date": "21/11/2022",
-        "property": "Villa",
-        "beds": 7,
-        "bathroom": 5
-    },
-    {
-        "pic_name": "pexels-max-vakhtbovych-7031414.jpg",
-        "price": 2000,
-        "location": "Bangalore",
-        "from_date": "06/12/2022",
-        "property": "Villa",
-        "beds": 8,
-        "bathroom": 7
-    },
-    {
-        "pic_name": "pexels-max-vakhtbovych-7174107.jpg",
-        "price": 10000,
-        "location": "Mumbai",
-        "from_date": "05/01/2023",
-        "property": "Villa",
-        "beds": 9,
-        "bathroom": 10
-    },
-    {
-        "pic_name": "pexels-paul-faraday-36355.jpg",
-        "price": 100,
-        "location": "Hyderabad",
-        "from_date": "04/02/2023",
-        "property": "Villa",
-        "beds": 10,
-        "bathroom": 5
-    },
-    {
-        "pic_name": "pexels-pixabay-261327.jpg",
-        "price": 200,
-        "location": "Kolkata",
-        "from_date": "05/05/2023",
-        "property": "Villa",
-        "beds": 12,
-        "bathroom": 7
-    },
-    {
-        "pic_name": "pexels-pixabay-261395.jpg",
-        "price": 300,
-        "location": "Bangalore",
-        "from_date": "21/11/2022",
-        "property": "Villa",
-        "beds": 7,
-        "bathroom": 10
-    },
-    {
-        "pic_name": "pexels-pixabay-271815.jpg",
-        "price": 1000,
-        "location": "Mumbai",
-        "from_date": "06/12/2022",
-        "property": "Villa",
-        "beds": 8,
-        "bathroom": 5
-    },
-    {
-        "pic_name": "pexels-pixabay-53610.jpg",
-        "price": 2000,
-        "location": "Hyderabad",
-        "from_date": "05/01/2023",
-        "property": "Villa",
-        "beds": 9,
-        "bathroom": 7
-    },
-    {
-        "pic_name": "pexels-rachel-claire-4577696.jpg",
-        "price": 10000,
-        "location": "Kolkata",
-        "from_date": "04/02/2023",
-        "property": "Villa",
-        "beds": 10,
-        "bathroom": 10
-    },
-    {
-        "pic_name": "pexels-rachel-claire-4825691.jpg",
-        "price": 100,
-        "location": "Bangalore",
-        "from_date": "05/05/2023",
-        "property": "Villa",
-        "beds": 12,
-        "bathroom": 5
-    },
-    {
-        "pic_name": "pexels-rachel-claire-5490346.jpg",
-        "price": 200,
-        "location": "Mumbai",
-        "from_date": "21/11/2022",
-        "property": "Villa",
-        "beds": 7,
-        "bathroom": 7
-    },
-    {
-        "pic_name": "pexels-rajesh-chetty-2956511.jpg",
-        "price": 300,
-        "location": "Hyderabad",
-        "from_date": "06/12/2022",
-        "property": "Villa",
-        "beds": 8,
-        "bathroom": 10
-    },
-    {
-        "pic_name": "pexels-roman-odintsov-8747706.jpg",
-        "price": 1000,
-        "location": "Kolkata",
-        "from_date": "05/01/2023",
-        "property": "Villa",
-        "beds": 9,
-        "bathroom": 5
-    },
-    {
-        "pic_name": "pexels-skylar-kang-6430734.jpg",
-        "price": 2000,
-        "location": "Bangalore",
-        "from_date": "04/02/2023",
-        "property": "Villa",
-        "beds": 10,
-        "bathroom": 7
-    },
-    {
-        "pic_name": "pexels-vlada-karpovich-7902904.jpg",
-        "price": 10000,
-        "location": "Mumbai",
-        "from_date": "05/05/2023",
-        "property": "Villa",
-        "beds": 12,
-        "bathroom": 10
-    }*/
+    }
 ]

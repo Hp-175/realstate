@@ -25,12 +25,6 @@
     margin-top: 10px;
   }
   
-  .alignment{
-    width: 92%;
-    padding-left: 4%;
-    padding-right: 4%;
-    margin-top: 2%;
-  }
   .capt{
     text-align: center;
     position: absolute;
@@ -113,15 +107,21 @@ input{
         position: relative;
         break-inside: avoid;
       }
-      .alignment{
-        width: 100%;
-        column-count: 1;
-        position: relative;
-        break-inside: avoid;
+      .alignment {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .alignment > section {   
+        flex: 100%;
+        padding: 10px;
       }
     }
     @media only screen and (min-width :768px) {
-        
+      img{
+        width: 100%;
+        height:400px;
+      }
         .card {
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
             transition: 0.3s;
@@ -129,11 +129,15 @@ input{
             break-inside: avoid;
             position: relative;
           }
-          .alignment{
-            column-count: 2;
-            column-gap: 40px;
-            break-inside: avoid;
-            position: relative;
+          
+          .alignment {
+            display: flex;
+            flex-wrap: wrap;
+          }
+          
+          .alignment > section {
+            padding: 10px;
+            flex: 50%;
           }
     }
 @media only screen and (min-width :1190px) {
@@ -144,11 +148,14 @@ input{
       position: relative;
       break-inside: avoid;
     }
-    .alignment{
-        width: 100%;
-        column-count: 3;
-        column-gap: 70px;
-        break-inside: avoid;
-        position: relative;
-      }
+    .alignment {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .alignment > section {
+     
+      flex: 33.333%;
+      padding: 10px;
+    }
 }
