@@ -1,8 +1,7 @@
 import React,{Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './style.css';
 import 'font-awesome/css/font-awesome.min.css';
-import Headercomponent from './HeaderComponen';
+import Headercomponent from './HeaderComponent';
 
 class Main extends Component{
     constructor(props) {
@@ -11,7 +10,7 @@ class Main extends Component{
     render(){
         return(
             <section className='app'>
-                <Headercomponent/>
+                <Headercomponent />
             </section>
         );
     }

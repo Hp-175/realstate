@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Alegreya+Sans|DM+Serif+Display|El+Messiri');
+.inputSection,.heading{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Alegreya Sans';
+}
+button{
+    margin-left: 10px;
+}
+
+#headSection{
+    background-image: linear-gradient(to right, #2c3e50, #4ca1af);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+  
+#Searchbtn{
+  background-color: #15427c;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Archivo Narrow';
+}
+
+input{
+  font-family: 'DM Serif Display';
+}
+
+#searchBar{
+  width: 300px;
+  border-radius: 6px;
+  height: 40px;
+}
